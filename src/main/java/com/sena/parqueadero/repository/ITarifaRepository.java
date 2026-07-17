@@ -9,6 +9,6 @@ import com.sena.parqueadero.model.TipoVehiculo;
 
 public interface ITarifaRepository extends JpaRepository<Tarifa, Long> {
 
-	Optional<Tarifa>finByTipoVehiculo(TipoVehiculo tipoVehiculo)
+	Optional<Tarifa> finByTipoVehiculo(TipoVehiculo tipoVehiculo);
 
 }
